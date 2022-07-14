@@ -1,0 +1,4 @@
+# Describe GuardDuty findings that were detected related to the brute force attack
+I try to attack from Attack Instance, against Web Instance (which is shown in image attached). But it took a long time but I can see any log in GuardDuty.
+
+# Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.

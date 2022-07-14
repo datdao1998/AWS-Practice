@@ -1,0 +1,7 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+This app provides HTTP protocol. As a publicly facing instance, it should be configured with port 443 for HTTPS to be securer.
+
+# Poor practice 2
+We can see S3 buckets, which includes the bucket for VPC flow logs, have no server-side encryption enabled. So that, files were uploaded without encryption and all the buckets have block public access disabled. Besides, if contents of the s3 buckets isn't encrypted, People who shouldn't have access to the content to view the content within the buckets can access.
