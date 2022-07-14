@@ -1,2 +1,2 @@
 # AWS-Pratice
-A tutorial to pratice with Amazon Web Service
+Some practice about AWS from course : AWS Cloud Architect Udacity
